@@ -5,8 +5,6 @@ class Solution:
 
         operators = {"+", "-", "*", "/"}
 
-
-        operator = ""
         stack = []
         answer = 0
         for token in tokens:
